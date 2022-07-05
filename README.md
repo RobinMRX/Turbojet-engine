@@ -1,2 +1,3 @@
 # Turboreacteur
-Ici vous retrouverez la conception et le développement d'un turboréacteur amateur.
+Here you will find the design and development of a DIY turbojet engine.
+
