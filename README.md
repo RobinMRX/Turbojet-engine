@@ -3,24 +3,15 @@
 Here you will find the design and development of a DIY turbojet engine.
 Feel free to participate and ask me anything about the project.
 
-I started this project even before being trained on many of the topics covered. Through this project I was able to develop my skills on a wide range of engineering. 
-[X] Mechanical
-[X] Design
-[X] Metalworking
-[X] Fluid mechanics
-[X] Chemistry
-[X] Electronics
-[X] Programming
-[X] Organization
-
-Mechanical, Design, Metalworking, Fluid mechanics, Chemistry, Electronics, programming, Organization.
+I started this project even before being trained on many of the topics covered. Through this project I was able to develop my skills on a wide range of engineering.
+Mechanical, Design, Metalworking, Fluid mechanics, Chemistry, Electronics, Programming, Organization.
 
 ## Table of Contents
 - [V1](#V1)
-  - [A bit of theory](##A bit of theory)
-  - [Start of the design](##Start of the design)
-  - [How to do it ?](##How to do it ?)
-  - [Start the design](##Start the design)
+  - [A bit of theory](##A_bit_of_theory)
+  - [Start of the design](##Start_of_the_design)
+  - [How to do it ?](##How_to_do_it_?)
+  - [Start the design](##Start_the_design)
 
 # V1
 
