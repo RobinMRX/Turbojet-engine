@@ -4,22 +4,23 @@ Here you will find the design and development of a DIY turbojet engine.
 Feel free to participate and ask me anything about the project.
 
 I started this project even before being trained on many of the topics covered. Through this project I was able to develop my skills on a wide range of engineering. 
-[X]Mechanical
-[X]Design
-[X]Metalworking
-[X]Fluid mechanics
-[X]Chemistry
-[X]Electronics
-[X]Programming
-[X]Organization
+[X] Mechanical
+[X] Design
+[X] Metalworking
+[X] Fluid mechanics
+[X] Chemistry
+[X] Electronics
+[X] Programming
+[X] Organization
+
 Mechanical, Design, Metalworking, Fluid mechanics, Chemistry, Electronics, programming, Organization.
 
 ## Table of Contents
-1. [V1](#V1)
-  a. [A bit of theory](##A bit of theory)
-  b. [Start of the design](##Start of the design)
-  c. [How to do it ?](##How to do it ?)
-  d. [Start the design](##Start the design)
+- [V1](#V1)
+  - [A bit of theory](##A bit of theory)
+  - [Start of the design](##Start of the design)
+  - [How to do it ?](##How to do it ?)
+  - [Start the design](##Start the design)
 
 # V1
 
@@ -58,5 +59,6 @@ Note that the combustion chamber is made up of a casing through which passes a f
 Although we understand how it works, we need to know a minimum of the proportions to respect to size the combustion chamber in relation to our turbocharger. To do this, we redo [this](https://www.youtube.com/watch?v=6GywwbhqR_o&ab_channel=colinfurze) video of the youtuber Colinfurze.
 
 We measure the diameter of the inlet of the compressor $R = 1.75$
+
 We calculate the air inlet surface of the compressor $S = piR^2$
 
