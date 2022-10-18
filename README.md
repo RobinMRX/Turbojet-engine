@@ -10,10 +10,7 @@ The first objective of this project is to produce a functional miniature turboje
 
 ## A bit of theory
 
-<p align="center">
-  ![Image theory](images/theory.png)
-</p>
-
+![Image theory](images/theory.png)
 
 The turbojet transforms the chemical energy of a fuel into kinetic energy. The thrust created by the turbojet comes from the acceleration of a quantity of air between the inlet and the outlet of the system.
 
