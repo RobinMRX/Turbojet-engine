@@ -53,7 +53,7 @@ Note that the combustion chamber is made up of a casing through which passes a f
 
 Although we understand how it works, we need to know a minimum of the proportions to respect to size the combustion chamber in relation to our turbocharger. To do this, we redo [this](https://www.youtube.com/watch?v=6GywwbhqR_o&ab_channel=colinfurze) video of the youtuber Colinfurze.
 
-![Image](images/Sans-titre.png)
+![Image](images/Diametre.png)
 
 We measure the diameter $D =  2R$ of the inlet of the compressor $$R = 1.75 cm$$
 
@@ -100,13 +100,13 @@ The dimensions that come closest to our theoretical dimensions are a tube of 80 
 
 Now that we have the dimensions, we can move on to the drawing part to have plans that we will use later.
 
-![Image](images/Tube à flamme.png)
-![Image](images/Chambre du combustion 1.png)
-![Image](images/Chambre du combustion 2.png)
+![Image](images/Tube_à_flamme.png)
+![Image](images/Chambre_du_combustion_1.png)
+![Image](images/Chambre_du_combustion_2.png)
 
 We take advantage of this to provide a cooling system for the gas circuit.
 
-![Image](images/circuit de refroidissement.jpg)
+![Image](images/circuit_de_refroidissement.jpg)
 
 ## Manufacturing
 
