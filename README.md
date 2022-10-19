@@ -4,14 +4,14 @@ Here you will find the design and development of a DIY turbojet engine.
 Feel free to participate and ask me anything about the project.
 
 I started this project even before being trained on many of the topics covered. Through this project I was able to develop my skills on a wide range of engineering.
-_ Mechanical
-_ Design
-_ Metalworking 
-_ Fluid mechanics
-_ Chemistry
-_ Electronics
-_ Programming
-_ Organization.
+- Mechanical
+- Design
+- Metalworking 
+- Fluid mechanics
+- Chemistry
+- Electronics
+- Programming
+- Organization.
 
 ## Table of Contents
 - [V1](#V1)
@@ -176,7 +176,7 @@ We make a soft start, that is to say that we send very little air and very littl
 
 I sent as much air as possible with the blower on the compressor to give it enough energy to start. I slowly open the throttle valve while activating the spark. When the air / fuel ratio is good, the turbojet starts, it is self-sustaining. The goal is reached.
 
-What is unfortunate is that we do not feel any power. While my valve is fully open. [Here](https://youtu.be/5YPhWXnR1MU) the video demonstration.
+What is unfortunate is that we do not feel any power. While my valve is fully open. **[Here](https://www.youtube.com/watch?v=5YPhWXnR1MU&ab_channel=RobinMoiroux) the video demonstration.**
 
 ### Test 3
 
