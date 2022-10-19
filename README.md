@@ -9,9 +9,10 @@ Mechanical, Design, Metalworking, Fluid mechanics, Chemistry, Electronics, Progr
 ## Table of Contents
 - [V1](#V1)
   - [A bit of theory](#theory)
-  - [Start of the design](##Start_of_the_design)
-  - [How to do it ?](##How_to_do_it_?)
-  - [Start the design](##Start_the_design)
+  - [How to do it ?](#how)
+  - [Start the design](#design)
+  - [Industrial design](#drawing)
+  - [Manufacturing](##Manufacturing)
 
 # V1
 
@@ -27,7 +28,7 @@ To do this, we entered the system with a compressor that allows us to inject a s
 
 Thanks to the compressor / turbine system, the air flow is self-sustaining. It's our goal. For the moment we are not interested in generating thrust
 
-## How to do it ?
+## How to do it ? <a name="how"></a>
 
 the idea is to use a car turbocharger. Indeed this system integrates a compressor and a turbine on the same axis as desired. The problem is that there is no combustion chamber between the compressor and the turbine. To solve this problem we will deport the combustion chamber.
 
@@ -37,7 +38,7 @@ After recovering a turbocharger from the scrapyard, we can take it apart in orde
 ![Image](images/IMG_3722.JPG)
 ![Image](images/IMG_3723.JPG)
 
-## Start of the design
+## Start of the design <a name="design"></a>
 
 Now that we have prepared our turbocharger, we need to create a combustion chamber between the compressor and the turbine.
 We will rely on documentation found on the internet:
@@ -85,6 +86,61 @@ So holes with a diameter $D_{3} = 1.11 cm = 11.1 mm$
 
 After which the length and diameters of the tubes are dimensioned according to the following rules:
 
+Flame tube length $L = 6D = 210mm$
+
+Flame tube diameter $D_{f} = 2D = 70 mm$
+
+Casing tube diameter $D_{casing} = D_{f} + 30 = 100 mm$
+
 At the metal merchant we choose 3mm thick steel tubes. It may be a little oversized but it will save us some trouble.
 
 The dimensions that come closest to our theoretical dimensions are a tube of 80 mm in diameter for the flame tube and 108 mm for the casing.
+
+## Industrial design <a name="drawing"></a>
+
+Now that we have the dimensions, we can move on to the drawing part to have plans that we will use later.
+
+![Image](images/Tube à flamme.png)
+![Image](images/Chambre du combustion 1.png)
+![Image](images/Chambre du combustion 2.png)
+
+We take advantage of this to provide a cooling system for the gas circuit.
+
+![Image](images/circuit de refroidissement.jpg)
+
+## Manufacturnig
+
+here photos of the manufacture and implementation of the combustion chamber on the turbocharger:
+
+![Image](images/IMG_3909.JPG)
+![Image](images/IMG_3913.JPG)
+![Image](images/IMG_3920.JPG)
+![Image](images/IMG_3925.JPG)
+![Image](images/IMG_3930.JPG)
+![Image](images/IMG_3931.JPG)
+![Image](images/IMG_3939.JPG)
+![Image](images/IMG_3943.JPG)
+![Image](images/IMG_3944.JPG)
+![Image](images/IMG_3955.JPG)
+![Image](images/IMG_3958.JPG)
+![Image](images/IMG_3962.JPG)
+![Image](images/IMG_3966.JPG)
+![Image](images/IMG_3970.JPG)
+![Image](images/IMG_3974.JPG)
+![Image](images/IMG_3981.JPG)
+![Image](images/IMG_3993.JPG)
+![Image](images/IMG_3995.JPG)
+![Image](images/IMG_4006.JPG)
+![Image](images/IMG_4015.JPG)
+![Image](images/IMG_4018.JPG)
+![Image](images/IMG_4023.JPG)
+![Image](images/IMG_4035.JPG)
+![Image](images/IMG_4041.JPG)
+![Image](images/IMG_4044.JPG)
+![Image](images/IMG_4047.JPG)
+![Image](images/IMG_4280.JPG)
+![Image](images/IMG_4287.JPG)
+![Image](images/IMG_4532.JPG)
+![Image](images/IMG_4538.JPG)
+
+
