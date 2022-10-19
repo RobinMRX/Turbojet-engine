@@ -12,7 +12,7 @@ Mechanical, Design, Metalworking, Fluid mechanics, Chemistry, Electronics, Progr
   - [How to do it ?](#how)
   - [Start the design](#design)
   - [Industrial design](#drawing)
-  - [Manufacturing](#Manufacturing)
+  - [Manufacturing](##Manufacturing)
 
 # V1
 
@@ -108,7 +108,7 @@ We take advantage of this to provide a cooling system for the gas circuit.
 
 ![Image](images/circuit de refroidissement.jpg)
 
-## Manufacturnig
+## Manufacturing
 
 here photos of the manufacture and implementation of the combustion chamber on the turbocharger:
 
