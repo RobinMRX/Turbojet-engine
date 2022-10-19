@@ -23,6 +23,9 @@ I started this project even before being trained on many of the topics covered. 
   - [How to run it ?](#run)
   - [Test](#Test)
 - [V2](#V2)
+  - [Spark](#Spark)
+  - [Air](#Air)
+  - [Gaz](#Gaz)
 
 # V1
 
@@ -196,3 +199,25 @@ We therefore have 3 things to control:
 - The spark
 - The air
 - The gas flow
+
+## Spark
+
+The spark is triggered by an electrical contact (by pressing a button). You can easily close the electrical contact with a relay.
+
+## Air
+
+We saw during our previous test that to start the turbojet we had to send as much air as possible into the compressor. So we can use a solenoid valve to on/off control the air supply
+
+## Gaz
+
+The gas part is more complex. Because it is necessary that we can precisely manage the flow of gas.
+
+There are proportional solenoid valves but they are quite expensive. Instead we are going to use our manual quarter-turn valve that we were already using but we are going to couple it to a motorization to manage its opening. We take this opportunity to add a solenoid valve upstream in order to have the possibility of instantly cutting off the gases.
+
+How to motorize the valve?
+
+The idea is to create an electric actuator that pushes or pulls on the valve to manage its opening.
+
+In a first attempt I used a DC motor with a screw nut system and a potentiometer installed on the axis of rotation of the valve. This first attempt was functional but not reliable and precise enough. Indeed, I had trouble aligning the axis of the screw with that of the motor, which induced a lot of vibration. Moreover, I did not succeed in controlling the opening angle of the valve according to the command requested. See démonstration here.
+
+The current system is visually quite similar but is quite different. The DC motor is replaced by a stepper motor. This change means that we no longer need to control the position of the valve with the command. Indeed, we can link the opening angle of the valve to the number of steps taken by the motor provided we know the initial opening angle of the valve. Currently I manually put the valve in the closed position at initialization but eventually I will develop an automatic initialization.
