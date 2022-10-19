@@ -12,7 +12,7 @@ Mechanical, Design, Metalworking, Fluid mechanics, Chemistry, Electronics, Progr
   - [How to do it ?](#how)
   - [Start the design](#design)
   - [Industrial design](#drawing)
-  - [Manufacturing](##Manufacturing)
+  - [Manufacturing](#Manufacturing)
 
 # V1
 
@@ -141,6 +141,6 @@ here photos of the manufacture and implementation of the combustion chamber on t
 ![Image](images/IMG_4280.JPG)
 ![Image](images/IMG_4287.JPG)
 ![Image](images/IMG_4532.JPG)
-![Image](images/IMG_4538.JPG)
+
 
 
