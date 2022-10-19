@@ -45,11 +45,26 @@ We will rely on documentation found on the internet:
 ![Image](images/Image1.png)
 ![Image](images/Image2.png)
 
-Note that the combustion chamber is made up of a casing through which passes a flame tube. This one is pierced, which allows the correct mixing of air and fuel.
+Note that the combustion chamber is made up of a casing through which passes a flame tube. This one is pierced, which allows the correct mixing of air and fuel. There are 3 zones in the combustion chamber. from combustion to ejection we have: 
+1. Primary zone
+2. Secondary zone
+3. Dilution zone
 
 Although we understand how it works, we need to know a minimum of the proportions to respect to size the combustion chamber in relation to our turbocharger. To do this, we redo [this](https://www.youtube.com/watch?v=6GywwbhqR_o&ab_channel=colinfurze) video of the youtuber Colinfurze.
 
-We measure the diameter of the inlet of the compressor $R = 1.75$
+![Image](images/Sans_titre.png)
 
-We calculate the air inlet surface of the compressor $S = piR^2$
+We measure the diameter $D =  2R$ of the inlet of the compressor $$R = 1.75 cm$$
+
+We calculate the air inlet surface of the compressor $$S = \pi R^2 = 9.62 cm^3$$
+
+The surface of the air inlet of the primary zone must be 30% of the surface of the surface of the air inlet of the compressor, therefore:
+$$S1 = \frac{30}{100}\ S1 = 2.89 cm^2$$
+
+This surface is divided into 2 rows of 13 holes around the flame tube. So each hole must have an area of:
+
+$$Sa = \frac{S1}{26}\ = 0.11 cm^3$$
+
+So a diameter $D1 = 0.37 cm = 3.7mm$
+
 
