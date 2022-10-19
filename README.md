@@ -8,7 +8,7 @@ Mechanical, Design, Metalworking, Fluid mechanics, Chemistry, Electronics, Progr
 
 ## Table of Contents
 - [V1](#V1)
-  - [A bit of theory](##A_bit_of_theory)
+  - [A bit of theory](##A-bit-of-theory)
   - [Start of the design](##Start_of_the_design)
   - [How to do it ?](##How_to_do_it_?)
   - [Start the design](##Start_the_design)
