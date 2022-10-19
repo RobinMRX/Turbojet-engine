@@ -59,26 +59,32 @@ We measure the diameter $D =  2R$ of the inlet of the compressor $$R = 1.75 cm$$
 We calculate the air inlet surface of the compressor $$S = \pi R^2 = 9.62 cm^3$$
 
 The surface of the air inlet of the primary zone must be 30% of the surface of the surface of the air inlet of the compressor, therefore:
-$$S1 = \frac{30}{100}\ S1 = 2.89 cm^2$$
+$$S_{1} = \frac{30}{100}\ S = 2.89 cm^2$$
 
 This surface is divided into 2 rows of 13 holes around the flame tube. So each hole must have an area of:
 
-$$Sa = \frac{S1}{26}\ = 0.11 cm^3$$
+$$S_{a} = \frac{S_{1}}{26}\ = 0.11 cm^3$$
 
-So a diameter $D1 = 0.37 cm = 3.7mm$
+So a diameter $D_{1} = 0.37 cm = 3.7mm$
 
 We do the same for the secondary zone which must have an air inlet of 20% of that of the compressor inlet.
 
-$$S2 = \frac{20}{100}\ S = 1.92 cm^2$$
+$$S_{2} = \frac{20}{100}\ S = 1.92 cm^2$$
 
-This surface is divided into 5 holes: $$Sb = \frac{S2}{5}\ = 0.38 cm^3$$
+This surface is divided into 5 holes: $$S_{b} = \frac{S_{2}}{5}\ = 0.38 cm^3$$
 
-So holes with a diameter $D2 = 0.70 cm = 7.0 mm$
+So holes with a diameter $D_{2} = 0.70 cm = 7.0 mm$
 
 We do the same for the dilution zone which must have an air inlet of 50% of that of the compressor inlet.
 
-$$S3 = \frac{50}{100}\ S = 4.81 cm^2$$
+$$S_{3} = \frac{50}{100}\ S = 4.81 cm^2$$
 
-This surface is divided into 5 holes: $$S_{c} = \frac{S3}{5}\ = 0.96 cm^3$$
+This surface is divided into 5 holes: $$S_{c} = \frac{S_{3}}{5}\ = 0.96 cm^3$$
 
-So holes with a diameter $D3 = 1.11 cm = 11.1 mm$
+So holes with a diameter $D_{3} = 1.11 cm = 11.1 mm$
+
+After which the length and diameters of the tubes are dimensioned according to the following rules:
+
+At the metal merchant we choose 3mm thick steel tubes. It may be a little oversized but it will save us some trouble.
+
+The dimensions that come closest to our theoretical dimensions are a tube of 80 mm in diameter for the flame tube and 108 mm for the casing.
