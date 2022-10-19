@@ -53,7 +53,7 @@ Note that the combustion chamber is made up of a casing through which passes a f
 
 Although we understand how it works, we need to know a minimum of the proportions to respect to size the combustion chamber in relation to our turbocharger. To do this, we redo [this](https://www.youtube.com/watch?v=6GywwbhqR_o&ab_channel=colinfurze) video of the youtuber Colinfurze.
 
-![Image](images/Sans titre.png)
+![Image](images/Sans-titre.png)
 
 We measure the diameter $D =  2R$ of the inlet of the compressor $$R = 1.75 cm$$
 
