@@ -4,7 +4,14 @@ Here you will find the design and development of a DIY turbojet engine.
 Feel free to participate and ask me anything about the project.
 
 I started this project even before being trained on many of the topics covered. Through this project I was able to develop my skills on a wide range of engineering.
-Mechanical, Design, Metalworking, Fluid mechanics, Chemistry, Electronics, Programming, Organization.
+_ Mechanical
+_ Design
+_ Metalworking 
+_ Fluid mechanics
+_ Chemistry
+_ Electronics
+_ Programming
+_ Organization.
 
 ## Table of Contents
 - [V1](#V1)
@@ -13,6 +20,9 @@ Mechanical, Design, Metalworking, Fluid mechanics, Chemistry, Electronics, Progr
   - [Start the design](#design)
   - [Industrial design](#drawing)
   - [Manufacturing](##Manufacturing)
+  - [How to run it ?](#run)
+  - [Test](##Test)
+- [V2](#V2)
 
 # V1
 
@@ -101,8 +111,8 @@ The dimensions that come closest to our theoretical dimensions are a tube of 80 
 Now that we have the dimensions, we can move on to the drawing part to have plans that we will use later.
 
 ![Image](images/Tube_à_flamme.png)
-![Image](images/Chambre_du_combustion_1.png)
-![Image](images/Chambre_du_combustion_2.png)
+![Image](images/Chambre_de_combustion_1.png)
+![Image](images/Chambre_de_combustion_2.png)
 
 We take advantage of this to provide a cooling system for the gas circuit.
 
@@ -142,5 +152,34 @@ here photos of the manufacture and implementation of the combustion chamber on t
 ![Image](images/IMG_4287.JPG)
 ![Image](images/IMG_4532.JPG)
 
+## How to run it ? <a name="run"></a>
 
+To start the turbo, you must start by turning the compressor enough to bring air into the combustion chamber. At the same time we must inject the right amount of fuel (we use butane because the latter being fragrant it allows us to realize if there is a leak) and for the mixture to ignite, we must trigger a spark.
 
+To make the compressor run, a blower from another compressor is used (max pressure 10 bars).
+
+To manage the quantity of gas injected, a quarter-turn valve is used.
+
+To create a spark, we use a car candle, lit by a small device that can be found cheap on amazon and whose energy comes from a conventional battery. The electrodes of the spark plug are well spaced in order to create the largest possible spark.
+
+![Image](images/Image3.png)
+
+These 3 devices are grouped together on a control table near the turbojet
+
+## Test
+
+### Test 1
+
+We make a soft start, that is to say that we send very little air and very little gas just to start combustion. Combustion starts but the turbine does not recover any power and does not allow the compressor to run to self-maintain the air flow
+
+### Test 2
+
+I sent as much air as possible with the blower on the compressor to give it enough energy to start. I slowly open the throttle valve while activating the spark. When the air / fuel ratio is good, the turbojet starts, it is self-sustaining. The goal is reached.
+
+What is unfortunate is that we do not feel any power. While my valve is fully open. [Here](https://youtu.be/5YPhWXnR1MU) the video demonstration.
+
+### Test 3
+
+The purpose of this test is to get more power. To do this, we need to increase the amount of fuel entering the combustion chamber. Since I'm already fully on the throttle valve, I can only play with the diameter of my injector. The problem is that as soon as I increase this size, the regulator on my gas bottle goes into safety.
+
+# V2
