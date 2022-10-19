@@ -8,7 +8,7 @@ Mechanical, Design, Metalworking, Fluid mechanics, Chemistry, Electronics, Progr
 
 ## Table of Contents
 - [V1](#V1)
-  - [A bit of theory](##A-bit-of-theory)
+  - [A bit of theory](#theory)
   - [Start of the design](##Start_of_the_design)
   - [How to do it ?](##How_to_do_it_?)
   - [Start the design](##Start_the_design)
@@ -17,7 +17,7 @@ Mechanical, Design, Metalworking, Fluid mechanics, Chemistry, Electronics, Progr
 
 The first objective of this project is to produce a functional miniature turbojet engine. That is to say, which is self-sustaining
 
-## A bit of theory
+## A bit of theory <a name="theory"></a>
 
 ![Image theory](images/theory.png)
 
