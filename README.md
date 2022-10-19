@@ -52,7 +52,7 @@ Note that the combustion chamber is made up of a casing through which passes a f
 
 Although we understand how it works, we need to know a minimum of the proportions to respect to size the combustion chamber in relation to our turbocharger. To do this, we redo [this](https://www.youtube.com/watch?v=6GywwbhqR_o&ab_channel=colinfurze) video of the youtuber Colinfurze.
 
-![Image](images/Sans_titre.png)
+![Image](images/Sans titre.png)
 
 We measure the diameter $D =  2R$ of the inlet of the compressor $$R = 1.75 cm$$
 
@@ -67,4 +67,18 @@ $$Sa = \frac{S1}{26}\ = 0.11 cm^3$$
 
 So a diameter $D1 = 0.37 cm = 3.7mm$
 
+We do the same for the secondary zone which must have an air inlet of 20% of that of the compressor inlet.
 
+$$S2 = \frac{20}{100}\ S = 1.92 cm^2$$
+
+This surface is divided into 5 holes: $$Sb = \frac{S2}{5}\ = 0.38 cm^3$$
+
+So holes with a diameter $D2 = 0.70 cm = 7.0 mm$
+
+We do the same for the dilution zone which must have an air inlet of 50% of that of the compressor inlet.
+
+$$S3 = \frac{50}{100}\ S = 4.81 cm^2$$
+
+This surface is divided into 5 holes: $$S_{c} = \frac{S3}{5}\ = 0.96 cm^3$$
+
+So holes with a diameter $D3 = 1.11 cm = 11.1 mm$
