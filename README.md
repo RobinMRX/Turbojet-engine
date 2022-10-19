@@ -183,3 +183,16 @@ What is unfortunate is that we do not feel any power. While my valve is fully op
 The purpose of this test is to get more power. To do this, we need to increase the amount of fuel entering the combustion chamber. Since I'm already fully on the throttle valve, I can only play with the diameter of my injector. The problem is that as soon as I increase this size, the regulator on my gas bottle goes into safety.
 
 # V2
+
+The objective of the V2 is to increase the power of the turbojet engine. We can then add a nozzle to create thrust.
+
+To do this I bought a new regulator, which allows a much higher flow and pressure than the previous one.
+
+The problem is that now I can't find the right mixtures by hand. I think there is too much fuel compared to the air. Moreover, by considerably increasing the amount of fuel that can be injected, we have increased the danger of handling. If the pressure suddenly increases, the combustion chamber could explode.
+
+The idea of the V2 is therefore to make the turbojet remotely controllable with the use of the new regulator.
+
+We therefore have 3 things to control:
+- The spark
+- The air
+- The gas flow
