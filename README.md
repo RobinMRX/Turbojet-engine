@@ -19,9 +19,9 @@ I started this project even before being trained on many of the topics covered. 
   - [How to do it ?](#how)
   - [Start the design](#design)
   - [Industrial design](#drawing)
-  - [Manufacturing](##Manufacturing)
+  - [Manufacturing](#Manufacturing)
   - [How to run it ?](#run)
-  - [Test](##Test)
+  - [Test](#Test)
 - [V2](#V2)
 
 # V1
