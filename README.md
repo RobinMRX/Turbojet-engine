@@ -1,5 +1,7 @@
 # Introduction
-![Image présentation](images/IMG_4035.JPG)
+
+[![Watch the video](https://img.youtube.com/vi/T-D1KVIuvjA/maxresdefault.jpg)](https://youtu.be/T-D1KVIuvjA)
+
 Here you will find the design and development of a DIY turbojet engine.
 Feel free to participate and ask me anything about the project.
 
