@@ -259,7 +259,8 @@ In addition, I replaced the classic screw and nut with a screw-nut system with s
 Now that we know how to control the spark, the air and the gas, we must choose a technology for remote control.
 
 The first idea was to create a remote control that communicates via bluetooth. The remote control has been made. based on an arduino nano and an hc-05 bluetooth module.
-codes **[here](Bluetooth_communication/)**
+
+**codes [here](Bluetooth_communication/)**
 
 ![Image](images/IMG_8452.JPEG)
 ![Image](images/IMG_8251.JPEG)
@@ -282,7 +283,7 @@ code here
 
 Now that we have everything to control the turbojet, it's time to put everything together on a test bench to start our tests. On this test bench we will find the valve control system, the spark control system, the gas control system, a custom PCB (see here) for our ESP32, a purchased relay PCB, a 12V power supply. We also order traffic lights that operate at 230V in order to have a visual indicator when we are away from the turbojet.
 
-Here the SolidWorks files
+**[Here](SolidWorks/) the SolidWorks files**
 
 Here the EasyEDA files for the PCB. Note that the 3.3v -> 5V shifter output is useless
 
