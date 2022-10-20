@@ -3,7 +3,7 @@
 Here you will find the design and development of a DIY turbojet engine.
 Feel free to participate and ask me anything about the project.
 
-Demo vidéo :
+**Demo video :**
 
 [![Watch the video](https://img.youtube.com/vi/5YPhWXnR1MU/maxresdefault.jpg)](https://youtu.be/5YPhWXnR1MU)
 
@@ -187,7 +187,7 @@ I sent as much air as possible with the blower on the compressor to give it enou
 
 What is unfortunate is that we do not feel any power. While my valve is fully open.
 
-Demo vidéo :
+**Demo video :**
 
 [![Watch the video](https://img.youtube.com/vi/5YPhWXnR1MU/maxresdefault.jpg)](https://youtu.be/5YPhWXnR1MU)
 
@@ -203,7 +203,7 @@ To do this I bought a new regulator, which allows a much higher flow and pressur
 
 The problem is that now I can't find the right mixtures by hand. I think there is too much fuel compared to the air. Moreover, by considerably increasing the amount of fuel that can be injected, we have increased the danger of handling. If the pressure suddenly increases, the combustion chamber could explode.
 
-Demo vidéo :
+**Demo video :**
 
 [![Watch the video](https://img.youtube.com/vi/BzaCEIvwCl0/maxresdefault.jpg)](https://youtu.be/BzaCEIvwCl0)
 
@@ -222,7 +222,7 @@ The spark is triggered by an electrical contact (by pressing a button). You can 
 
 At first I wanted to be able to manage the airflow. So I used a servomotor to more or less control the opening of the blower. It worked but I had some reliability issues.
 
-Demo vidéo :
+**Demo video :**
 
 [![Watch the video](https://img.youtube.com/vi/y2Q_39y3OnU/maxresdefault.jpg)](https://youtu.be/y2Q_39y3OnU)
 
@@ -240,7 +240,7 @@ The idea is to create an electric actuator that pushes or pulls on the valve to 
 
 In a first attempt I used a DC motor with a screw nut system and a potentiometer installed on the axis of rotation of the valve. This first attempt was functional but not reliable and precise enough. Indeed, I had trouble aligning the axis of the screw with that of the motor, which induced a lot of vibration. Moreover, I did not succeed in controlling the opening angle of the valve according to the command requested.
 
-Demo vidéo :
+**Demo video :**
 
 [![Watch the video](https://img.youtube.com/vi/Buvl3nQfvQg/maxresdefault.jpg)](https://youtu.be/Buvl3nQfvQg)
 
@@ -249,7 +249,7 @@ The current system is visually quite similar but is quite different. The DC moto
 
 In addition, I replaced the classic screw and nut with a screw-nut system with several threads, as can be found on a 3D printer. It is more suitable because you can pass a lot more torque by turning the screw less quickly.
 
-Demo vidéo :
+**Demo video :**
 
 [![Watch the video](https://img.youtube.com/vi/UdKoBPVw2Po/maxresdefault.jpg)](https://youtu.be/UdKoBPVw2Po)
 [![Watch the video](https://img.youtube.com/vi/P5eirryI0JA/maxresdefault.jpg)](https://youtu.be/P5eirryI0JA)
@@ -259,12 +259,12 @@ Demo vidéo :
 Now that we know how to control the spark, the air and the gas, we must choose a technology for remote control.
 
 The first idea was to create a remote control that communicates via bluetooth. The remote control has been made. based on an arduino nano and an hc-05 bluetooth module.
-codes here
+codes **[here](Bluetooth_communication/)**
 
 ![Image](images/IMG_8452.JPEG)
 ![Image](images/IMG_8251.JPEG)
 
-Demo vidéo :
+**Demo video :**
 
 [![Watch the video](https://img.youtube.com/vi/LgDKdboIwjw/maxresdefault.jpg)](https://youtu.be/LgDKdboIwjw)
 
@@ -274,10 +274,9 @@ The new and last idea is to use Wifi. We use an ESP32 in access point mode. We h
 
 I thank Tommy desrochers who thanks to these [tutorials](https://tommydesrochers.com/premiers-tests-pour-bien-debuter-avec-lesp32-ep1/) allowed me to take control of the ESP32.
 
-code ![here](Bluetooth_communication/)
+code here
 
-Demo vidéo :
-
+**Demo video :**
 
 ## Test bench <a name="bench"></a>
 
