@@ -28,6 +28,7 @@ I started this project even before being trained on many of the topics covered. 
   - [Gaz](#Gaz)
   - [Communication](#Communication)
   - [Test bench](#bench)
+  - [ESP32 programming](#programming)
 
 # V1
 
@@ -238,9 +239,16 @@ After some tests, I noticed that there could be data loss problems in the commun
 
 The new and last idea is to use Wifi. We use an ESP32 in access point mode. We host a web page on it. To control the turbojet, you connect to the ESP32's wifi (in optimal conditions you can reach a range of 100m) and you load the web page on which you can interact with buttons. After a few tests I did not notice any problem on the contrary, it works very well.
 
+I thank Tommy desrochers who thanks to these [tutorials](https://tommydesrochers.com/premiers-tests-pour-bien-debuter-avec-lesp32-ep1/) allowed me to take control of the ESP32.
+
 code here
 Video here
 
 ## Test bench <a name="bench"></a>
 
-Now that we have everything to control the turbojet, it's time to put everything together on a test bench to start our tests. On this test bench we will find the valve control system, the spark control system, the gas control system, a custom PCB (see here) for our ESP32, a purchased relay PCB, A 12V power supply.
+Now that we have everything to control the turbojet, it's time to put everything together on a test bench to start our tests. On this test bench we will find the valve control system, the spark control system, the gas control system, a custom PCB (see here) for our ESP32, a purchased relay PCB, a 12V power supply. We also order traffic lights that operate at 230V in order to have a visual indicator when we are away from the turbojet.
+
+Here the SolidWorks files
+Here the EasyEDA files for the PCB. Note that the 3.3v -> 5V shifter output is useless
+
+Finally we get this:
