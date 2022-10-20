@@ -261,8 +261,8 @@ Now that we know how to control the spark, the air and the gas, we must choose a
 The first idea was to create a remote control that communicates via bluetooth. The remote control has been made. based on an arduino nano and an hc-05 bluetooth module.
 codes here
 
-![Image](images/IMG_8452.JPG)
-![Image](images/IMG_8251.JPG)
+![Image](images/IMG_8452.JPEG)
+![Image](images/IMG_8251.JPEG)
 
 Demo vidéo :
 
@@ -288,5 +288,6 @@ Here the SolidWorks files
 Here the EasyEDA files for the PCB. Note that the 3.3v -> 5V shifter output is useless
 
 Finally we get this:
-![Image](images/IMG_9866.JPG)
-![Image](images/IMG_9867.JPG)
+
+![Image](images/IMG_9866.JPEG)
+![Image](images/IMG_9867.JPEG)
