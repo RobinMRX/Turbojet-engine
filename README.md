@@ -3,6 +3,8 @@
 Here you will find the design and development of a DIY turbojet engine.
 Feel free to participate and ask me anything about the project.
 
+Demo vidéo :
+
 [![Watch the video](https://img.youtube.com/vi/5YPhWXnR1MU/maxresdefault.jpg)](https://youtu.be/5YPhWXnR1MU)
 
 I started this project even before being trained on many of the topics covered. Through this project I was able to develop my skills on a wide range of engineering.
@@ -183,7 +185,11 @@ We make a soft start, that is to say that we send very little air and very littl
 
 I sent as much air as possible with the blower on the compressor to give it enough energy to start. I slowly open the throttle valve while activating the spark. When the air / fuel ratio is good, the turbojet starts, it is self-sustaining. The goal is reached.
 
-What is unfortunate is that we do not feel any power. While my valve is fully open. **[Here](https://www.youtube.com/watch?v=5YPhWXnR1MU&ab_channel=RobinMoiroux) the video demonstration.**
+What is unfortunate is that we do not feel any power. While my valve is fully open.
+
+Demo vidéo :
+
+[![Watch the video](https://img.youtube.com/vi/5YPhWXnR1MU/maxresdefault.jpg)](https://youtu.be/5YPhWXnR1MU)
 
 ### Test 3
 
@@ -196,6 +202,10 @@ The objective of the V2 is to increase the power of the turbojet engine. We can 
 To do this I bought a new regulator, which allows a much higher flow and pressure than the previous one.
 
 The problem is that now I can't find the right mixtures by hand. I think there is too much fuel compared to the air. Moreover, by considerably increasing the amount of fuel that can be injected, we have increased the danger of handling. If the pressure suddenly increases, the combustion chamber could explode.
+
+Demo vidéo :
+
+[![Watch the video](https://img.youtube.com/vi/BzaCEIvwCl0/maxresdefault.jpg)](https://youtu.be/BzaCEIvwCl0)
 
 The idea of the V2 is therefore to make the turbojet remotely controllable with the use of the new regulator.
 
@@ -210,7 +220,13 @@ The spark is triggered by an electrical contact (by pressing a button). You can 
 
 ## Air
 
-At first I wanted to be able to manage the airflow. So I used a servomotor to more or less control the opening of the blower. It worked but I had some reliability issues and finally we saw during our previous test that to start the turbojet we had to send as much air as possible into the compressor. So we can use a solenoid valve to on/off control the air supply
+At first I wanted to be able to manage the airflow. So I used a servomotor to more or less control the opening of the blower. It worked but I had some reliability issues.
+
+Demo vidéo :
+
+[![Watch the video](https://img.youtube.com/vi/y2Q_39y3OnU/maxresdefault.jpg)](https://youtu.be/y2Q_39y3OnU)
+
+Finally we saw during our previous test that to start the turbojet we had to send as much air as possible into the compressor. So we can use a solenoid valve to on/off control the air supply
 
 ## Gaz
 
@@ -222,11 +238,21 @@ How to motorize the valve?
 
 The idea is to create an electric actuator that pushes or pulls on the valve to manage its opening.
 
-In a first attempt I used a DC motor with a screw nut system and a potentiometer installed on the axis of rotation of the valve. This first attempt was functional but not reliable and precise enough. Indeed, I had trouble aligning the axis of the screw with that of the motor, which induced a lot of vibration. Moreover, I did not succeed in controlling the opening angle of the valve according to the command requested. See démonstration here.
+In a first attempt I used a DC motor with a screw nut system and a potentiometer installed on the axis of rotation of the valve. This first attempt was functional but not reliable and precise enough. Indeed, I had trouble aligning the axis of the screw with that of the motor, which induced a lot of vibration. Moreover, I did not succeed in controlling the opening angle of the valve according to the command requested.
+
+Demo vidéo :
+
+[![Watch the video](https://img.youtube.com/vi/Buvl3nQfvQg/maxresdefault.jpg)](https://youtu.be/Buvl3nQfvQg)
+
 
 The current system is visually quite similar but is quite different. The DC motor is replaced by a stepper motor. This change means that we no longer need to control the position of the valve with the command. Indeed, we can link the opening angle of the valve to the number of steps taken by the motor provided we know the initial opening angle of the valve. Currently I manually put the valve in the closed position at initialization but eventually I will develop an automatic initialization.
 
 In addition, I replaced the classic screw and nut with a screw-nut system with several threads, as can be found on a 3D printer. It is more suitable because you can pass a lot more torque by turning the screw less quickly.
+
+Demo vidéo :
+
+[![Watch the video](https://img.youtube.com/vi/UdKoBPVw2Po/maxresdefault.jpg)](https://youtu.be/UdKoBPVw2Po)
+[![Watch the video](https://img.youtube.com/vi/P5eirryI0JA/maxresdefault.jpg)](https://youtu.be/P5eirryI0JA)
 
 ## Communication
 
@@ -234,7 +260,10 @@ Now that we know how to control the spark, the air and the gas, we must choose a
 
 The first idea was to create a remote control that communicates via bluetooth. The remote control has been made. based on an arduino nano and an hc-05 bluetooth module.
 codes here
-Demo video here
+
+Demo vidéo :
+
+[![Watch the video](https://img.youtube.com/vi/LgDKdboIwjw/maxresdefault.jpg)](https://youtu.be/LgDKdboIwjw)
 
 After some tests, I noticed that there could be data loss problems in the communication, disconnection problems. In short, this technology was not reliable enough. And we don't want to lose control during the manipulation. So I looked for another technology.
 
@@ -243,7 +272,9 @@ The new and last idea is to use Wifi. We use an ESP32 in access point mode. We h
 I thank Tommy desrochers who thanks to these [tutorials](https://tommydesrochers.com/premiers-tests-pour-bien-debuter-avec-lesp32-ep1/) allowed me to take control of the ESP32.
 
 code here
-Video here
+
+Demo vidéo :
+
 
 ## Test bench <a name="bench"></a>
 
