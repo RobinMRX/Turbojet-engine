@@ -26,6 +26,8 @@ I started this project even before being trained on many of the topics covered. 
   - [Spark](#Spark)
   - [Air](#Air)
   - [Gaz](#Gaz)
+  - [Communication](#Communication)
+  - [Test bench](#bench)
 
 # V1
 
@@ -223,3 +225,22 @@ In a first attempt I used a DC motor with a screw nut system and a potentiometer
 The current system is visually quite similar but is quite different. The DC motor is replaced by a stepper motor. This change means that we no longer need to control the position of the valve with the command. Indeed, we can link the opening angle of the valve to the number of steps taken by the motor provided we know the initial opening angle of the valve. Currently I manually put the valve in the closed position at initialization but eventually I will develop an automatic initialization.
 
 In addition, I replaced the classic screw and nut with a screw-nut system with several threads, as can be found on a 3D printer. It is more suitable because you can pass a lot more torque by turning the screw less quickly.
+
+## Communication
+
+Now that we know how to control the spark, the air and the gas, we must choose a technology for remote control.
+
+The first idea was to create a remote control that communicates via bluetooth. The remote control has been made. based on an arduino nano and an hc-05 bluetooth module.
+codes here
+Demo video here
+
+After some tests, I noticed that there could be data loss problems in the communication, disconnection problems. In short, this technology was not reliable enough. And we don't want to lose control during the manipulation. So I looked for another technology.
+
+The new and last idea is to use Wifi. We use an ESP32 in access point mode. We host a web page on it. To control the turbojet, you connect to the ESP32's wifi (in optimal conditions you can reach a range of 100m) and you load the web page on which you can interact with buttons. After a few tests I did not notice any problem on the contrary, it works very well.
+
+code here
+Video here
+
+## Test bench <a name="bench"></a>
+
+Now that we have everything to control the turbojet, it's time to put everything together on a test bench to start our tests. On this test bench we will find the valve control system, the spark control system, the gas control system, a custom PCB (see here) for our ESP32, a purchased relay PCB, A 12V power supply.
