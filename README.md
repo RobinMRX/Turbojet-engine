@@ -28,7 +28,6 @@ I started this project even before being trained on many of the topics covered. 
   - [Gaz](#Gaz)
   - [Communication](#Communication)
   - [Test bench](#bench)
-  - [ESP32 programming](#programming)
 
 # V1
 
