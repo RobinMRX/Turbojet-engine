@@ -208,7 +208,7 @@ The spark is triggered by an electrical contact (by pressing a button). You can 
 
 ## Air
 
-We saw during our previous test that to start the turbojet we had to send as much air as possible into the compressor. So we can use a solenoid valve to on/off control the air supply
+At first I wanted to be able to manage the airflow. So I used a servomotor to more or less control the opening of the blower. It worked but I had some reliability issues and finally we saw during our previous test that to start the turbojet we had to send as much air as possible into the compressor. So we can use a solenoid valve to on/off control the air supply
 
 ## Gaz
 
