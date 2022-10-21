@@ -3,7 +3,7 @@
 Here you will find the design and development of a DIY **```turbojet engine.```**
 Feel free to participate and ask me anything about the project.
 
-**```Demo video :```**
+**Demo video :**
 
 [![Watch the video](https://img.youtube.com/vi/5YPhWXnR1MU/maxresdefault.jpg)](https://youtu.be/5YPhWXnR1MU)
 
@@ -35,7 +35,7 @@ I started this project even before being trained on many of the topics covered. 
 
 # V1
 
-The first objective of this project is to produce a functional miniature turbojet engine. That is to say, which is self-sustaining
+The first objective of this project is to produce a functional miniature turbojet engine. That is to say, which is **```self-sustaining```**
 
 ## A bit of theory <a name="theory"></a>
 
@@ -49,7 +49,7 @@ Thanks to the compressor / turbine system, the air flow is self-sustaining. It's
 
 ## How to do it ? <a name="how"></a>
 
-the idea is to use a car turbocharger. Indeed this system integrates a compressor and a turbine on the same axis as desired. The problem is that there is no combustion chamber between the compressor and the turbine. To solve this problem we will deport the combustion chamber.
+the idea is to use a **```car turbocharger.```** Indeed this system integrates a compressor and a turbine on the same axis as desired. The problem is that there is no combustion chamber between the compressor and the turbine. To solve this problem we will ```**deport**``` the combustion chamber.
 
 After recovering a turbocharger from the scrapyard, we can take it apart in order to clean it and keep only what interests us
 ![Image](images/IMG_3710.JPG)
@@ -65,21 +65,21 @@ We will rely on documentation found on the internet:
 ![Image](images/Image1.png)
 ![Image](images/Image2.png)
 
-Note that the combustion chamber is made up of a casing through which passes a flame tube. This one is pierced, which allows the correct mixing of air and fuel. There are 3 zones in the combustion chamber. from combustion to ejection we have: 
-1. Primary zone
-2. Secondary zone
-3. Dilution zone
+Note that the combustion chamber is made up of a casing through which passes a **```flame tube.```** This one is pierced, which allows the correct mixing of air and fuel. There are 3 zones in the combustion chamber. from combustion to ejection we have: 
+1. **```Primary zone```**
+2. **```Secondary zone```**
+3. **```Dilution zone```**
 
-Although we understand how it works, we need to know a minimum of the proportions to respect to size the combustion chamber in relation to our turbocharger. To do this, we redo [this](https://www.youtube.com/watch?v=6GywwbhqR_o&ab_channel=colinfurze) video of the youtuber Colinfurze.
+Although we understand how it works, we need to know a minimum of the proportions to respect to size the combustion chamber in relation to our turbocharger. To do this, we redo **```[this](https://www.youtube.com/watch?v=6GywwbhqR_o&ab_channel=colinfurze)```** video of the youtuber Colinfurze.
 
 ![Image](images/Diametre.png)
 
-We measure the diameter $D =  2R$ of the inlet of the compressor $$R = 1.75 cm$$
+We measure the diameter $D =  2R$ of the inlet of the compressor $$```R = 1.75 cm```$$
 
-We calculate the air inlet surface of the compressor $$S = \pi R^2 = 9.62 cm^3$$
+We calculate the air inlet surface of the compressor ```$$S = \pi R^2 = 9.62 cm^3$$```
 
 The surface of the air inlet of the primary zone must be 30% of the surface of the surface of the air inlet of the compressor, therefore:
-$$S_{1} = \frac{30}{100}\ S = 2.89 cm^2$$
+$$S_{1} = \frac{30}{100}\ S = ```2.89 cm^2```$$
 
 This surface is divided into 2 rows of 13 holes around the flame tube. So each hole must have an area of:
 
@@ -117,7 +117,7 @@ The dimensions that come closest to our theoretical dimensions are a tube of 80 
 
 ## Industrial design <a name="drawing"></a>
 
-Now that we have the dimensions, we can move on to the drawing part to have plans that we will use later.
+Now that we have the dimensions, we can move on to the drawing part to have **```plans```** that we will use later.
 
 ![Image](images/Tube_à_flamme.png)
 ![Image](images/Chambre_de_combustion_1.png)
@@ -179,13 +179,13 @@ These 3 devices are grouped together on a control table near the turbojet
 
 ### Test 1
 
-We make a soft start, that is to say that we send very little air and very little gas just to start combustion. Combustion starts but the turbine does not recover any power and does not allow the compressor to run to self-maintain the air flow
+We make a **```soft start```**, that is to say that we send very little air and very little gas just to start combustion. Combustion starts but the turbine does not recover any power and does not allow the compressor to run to self-maintain the air flow
 
 ### Test 2
 
-I sent as much air as possible with the blower on the compressor to give it enough energy to start. I slowly open the throttle valve while activating the spark. When the air / fuel ratio is good, the turbojet starts, it is self-sustaining. The goal is reached.
+I sent as much air as possible with the blower on the compressor to give it enough energy to start. I slowly open the throttle valve while activating the spark. When the air / fuel ratio is good, **```the turbojet starts```**, **```it is self-sustaining.```** **```The goal is reached.```**
 
-What is unfortunate is that we do not feel any power. While my valve is fully open.
+What is unfortunate is that we do **```not feel any power.```** While my valve is fully open.
 
 **Demo video :**
 
@@ -197,57 +197,57 @@ The purpose of this test is to get more power. To do this, we need to increase t
 
 # V2
 
-The objective of the V2 is to increase the power of the turbojet engine. We can then add a nozzle to create thrust.
+The objective of the V2 is to **```increase the power```** of the turbojet engine. We can then add a nozzle to create thrust.
 
-To do this I bought a new regulator, which allows a much higher flow and pressure than the previous one.
+To do this I bought a **```new regulator```**, which allows a much higher flow and pressure than the previous one.
 
-The problem is that now I can't find the right mixtures by hand. I think there is too much fuel compared to the air. Moreover, by considerably increasing the amount of fuel that can be injected, we have increased the danger of handling. If the pressure suddenly increases, the combustion chamber could explode.
+The problem is that now I can't find the right mixtures by hand. I think there is too much fuel compared to the air. Moreover, by considerably increasing the amount of fuel that can be injected, we have **```increased the danger```** of handling. If the pressure suddenly increases, the combustion chamber could explode.
 
 **Demo video :**
 
 [![Watch the video](https://img.youtube.com/vi/BzaCEIvwCl0/maxresdefault.jpg)](https://youtu.be/BzaCEIvwCl0)
 
-The idea of the V2 is therefore to make the turbojet remotely controllable with the use of the new regulator.
+The idea of the V2 is therefore to make the turbojet **```remotely controllable```** with the use of the new regulator.
 
 We therefore have 3 things to control:
-- The spark
-- The air
-- The gas flow
+- **```The spark```**
+- **```The air```**
+- **```The gas flow```**
 
 ## Spark
 
-The spark is triggered by an electrical contact (by pressing a button). You can easily close the electrical contact with a relay.
+The spark is triggered by an electrical contact (by pressing a button). You can easily close the electrical contact with a **```relay.```**
 
 ## Air
 
-At first I wanted to be able to manage the airflow. So I used a servomotor to more or less control the opening of the blower. It worked but I had some reliability issues.
+At first I wanted to be able to manage the airflow. So I used a **```servomotor```** to more or less control the opening of the blower. It worked but I had some **```reliability issues.```**
 
 **Demo video :**
 
 [![Watch the video](https://img.youtube.com/vi/y2Q_39y3OnU/maxresdefault.jpg)](https://youtu.be/y2Q_39y3OnU)
 
-Finally we saw during our previous test that to start the turbojet we had to send as much air as possible into the compressor. So we can use a solenoid valve to on/off control the air supply
+Finally we saw during our previous test that to start the turbojet we had to send as much air as possible into the compressor. So we can use a **```solenoid valve```** to on/off control the air supply
 
 ## Gaz
 
 The gas part is more complex. Because it is necessary that we can precisely manage the flow of gas.
 
-There are proportional solenoid valves but they are quite expensive. Instead we are going to use our manual quarter-turn valve that we were already using but we are going to couple it to a motorization to manage its opening. We take this opportunity to add a solenoid valve upstream in order to have the possibility of instantly cutting off the gases.
+There are proportional solenoid valves but they are quite expensive. Instead we are going to use our manual quarter-turn valve that we were already using but we are going to couple it to a **```motorization```** to manage its opening. We take this opportunity to add a solenoid valve upstream in order to have the possibility of instantly cutting off the gases.
 
-How to motorize the valve?
+**How to motorize the valve?**
 
-The idea is to create an electric actuator that pushes or pulls on the valve to manage its opening.
+The idea is to create an **```electric actuator```** that pushes or pulls on the valve to manage its opening.
 
-In a first attempt I used a DC motor with a screw nut system and a potentiometer installed on the axis of rotation of the valve. This first attempt was functional but not reliable and precise enough. Indeed, I had trouble aligning the axis of the screw with that of the motor, which induced a lot of vibration. Moreover, I did not succeed in controlling the opening angle of the valve according to the command requested.
+In a first attempt I used a **```DC motor```** with a screw nut system and a potentiometer installed on the axis of rotation of the valve. This first attempt was functional but **```not reliable and precise enough```**. Indeed, I had trouble aligning the axis of the screw with that of the motor, which induced a lot of vibration. Moreover, I did not succeed in controlling the opening angle of the valve according to the command requested.
 
 **Demo video :**
 
 [![Watch the video](https://img.youtube.com/vi/Buvl3nQfvQg/maxresdefault.jpg)](https://youtu.be/Buvl3nQfvQg)
 
 
-The current system is visually quite similar but is quite different. The DC motor is replaced by a stepper motor. This change means that we no longer need to control the position of the valve with the command. Indeed, we can link the opening angle of the valve to the number of steps taken by the motor provided we know the initial opening angle of the valve. Currently I manually put the valve in the closed position at initialization but eventually I will develop an automatic initialization.
+The current system is visually quite similar but is quite different. The DC motor is replaced by a **```stepper motor```**. This change means that we no longer need to control the position of the valve with the command. Indeed, we can link the opening angle of the valve to the number of steps taken by the motor provided we know the initial opening angle of the valve. Currently I manually put the valve in the closed position at initialization but eventually I will develop an automatic initialization.
 
-In addition, I replaced the classic screw and nut with a screw-nut system with several threads, as can be found on a 3D printer. It is more suitable because you can pass a lot more torque by turning the screw less quickly.
+In addition, I replaced the classic screw and nut with a screw-nut system with **```several threads```**, as can be found on a 3D printer. It is more suitable because you can pass a lot more torque by turning the screw less quickly.
 
 **Demo video :**
 
@@ -256,9 +256,9 @@ In addition, I replaced the classic screw and nut with a screw-nut system with s
 
 ## Communication
 
-Now that we know how to control the spark, the air and the gas, we must choose a technology for remote control.
+Now that we know how to control the spark, the air and the gas, we must choose a **```technology```** for remote control.
 
-The first idea was to create a remote control that communicates via bluetooth. The remote control has been made. based on an arduino nano and an hc-05 bluetooth module.
+The first idea was to create a remote control that communicates via **```bluetooth```**. The remote control has been made. based on an arduino nano and an hc-05 bluetooth module.
 
 **codes [here](Bluetooth_communication/)**
 
@@ -269,19 +269,19 @@ The first idea was to create a remote control that communicates via bluetooth. T
 
 [![Watch the video](https://img.youtube.com/vi/LgDKdboIwjw/maxresdefault.jpg)](https://youtu.be/LgDKdboIwjw)
 
-After some tests, I noticed that there could be data loss problems in the communication, disconnection problems. In short, this technology was not reliable enough. And we don't want to lose control during the manipulation. So I looked for another technology.
+After some tests, I noticed that there could be **```data loss```** problems in the communication, disconnection problems. In short, this technology was not reliable enough. And we don't want to lose control during the manipulation. So I looked for another technology.
 
-The new and last idea is to use Wifi. We use an ESP32 in access point mode. We host a web page on it. To control the turbojet, you connect to the ESP32's wifi (in optimal conditions you can reach a range of 100m) and you load the web page on which you can interact with buttons. After a few tests I did not notice any problem on the contrary, it works very well.
+The new and last idea is to use **```WiFi```**. We use an **```ESP32```** in access point mode. We host a web page on it. To control the turbojet, you connect to the ESP32's wifi (in optimal conditions you can reach a range of 100m) and you load the web page on which you can interact with buttons. After a few tests I did not notice any problem on the contrary, **```it works very well```**.
 
-I thank Tommy desrochers who thanks to these [tutorials](https://tommydesrochers.com/premiers-tests-pour-bien-debuter-avec-lesp32-ep1/) allowed me to take control of the ESP32.
+I thank **```Tommy desrochers```** who thanks to these **```[tutorials](https://tommydesrochers.com/premiers-tests-pour-bien-debuter-avec-lesp32-ep1/)```** allowed me to take control of the ESP32.
 
-code here
+code here (arrive soon)
 
 **Demo video :**
 
 ## Test bench <a name="bench"></a>
 
-Now that we have everything to control the turbojet, it's time to put everything together on a test bench to start our tests. On this test bench we will find the valve control system, the spark control system, the gas control system, a custom PCB (see here) for our ESP32, a purchased relay PCB, a 12V power supply. We also order traffic lights that operate at 230V in order to have a visual indicator when we are away from the turbojet.
+Now that we have everything to **```control the turbojet```**, it's time to put everything together on a test bench to start our tests. On this test bench we will find ```the valve control system```, ```the spark control system```, ```the gas control system```, ```a custom PCB``` for our ESP32, ```a purchased relay PCB```, ```a 12V power supply```. We also order ```traffic lights``` that operate at 230V in order to have a **```visual indicator```** when we are away from the turbojet.
 
 **[Here](SolidWorks/) the SolidWorks files**
 
@@ -290,7 +290,7 @@ Now that we have everything to control the turbojet, it's time to put everything
 
 **[Here](Gerber_PCB_TurboV2.zip) the Gerber files for the PCB.** Note that the 3.3v -> 5V shifter output is useless
 
-Finally we get this:
+**Finally we get this:**
 
 ![Image](images/IMG_9866.JPEG)
 ![Image](images/IMG_9867.JPEG)
