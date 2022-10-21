@@ -285,7 +285,10 @@ Now that we have everything to control the turbojet, it's time to put everything
 
 **[Here](SolidWorks/) the SolidWorks files**
 
-Here the EasyEDA files for the PCB. Note that the 3.3v -> 5V shifter output is useless
+![Image](images/PCB_schematic.png)
+![Image](images/PCB_root.png)
+
+**[Here](Gerber_PCB_TurboV2.zip) the Gerber files for the PCB.** Note that the 3.3v -> 5V shifter output is useless
 
 Finally we get this:
 
