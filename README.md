@@ -1,21 +1,21 @@
 # Introduction
 
-Here you will find the design and development of a DIY ```**turbojet engine.**```
+Here you will find the design and development of a DIY **```turbojet engine.```**
 Feel free to participate and ask me anything about the project.
 
-```**Demo video :**```
+**```Demo video :```**
 
 [![Watch the video](https://img.youtube.com/vi/5YPhWXnR1MU/maxresdefault.jpg)](https://youtu.be/5YPhWXnR1MU)
 
 I started this project even before being trained on many of the topics covered. Through this project I was able to develop my skills on a wide range of engineering.
-```- Mechanical```
-```- Design```
-- Metalworking 
-- Fluid mechanics
-- Chemistry
-- Electronics
-- Programming
-- Organization.
+```Mechanical```
+```Design```
+```Metalworking```
+```Fluid mechanics```
+```Chemistry```
+```Electronics```
+```Programming```
+```Organization```
 
 ## Table of Contents
 - [V1](#V1)
