@@ -49,7 +49,7 @@ Thanks to the compressor / turbine system, the air flow is self-sustaining. It's
 
 ## How to do it ? <a name="how"></a>
 
-the idea is to use a **```car turbocharger.```** Indeed this system integrates a compressor and a turbine on the same axis as desired. The problem is that there is no combustion chamber between the compressor and the turbine. To solve this problem we will ```**deport**``` the combustion chamber.
+the idea is to use a **```car turbocharger.```** Indeed this system integrates a compressor and a turbine on the same axis as desired. The problem is that there is no combustion chamber between the compressor and the turbine. To solve this problem we will **```deport the combustion chamber.```**
 
 After recovering a turbocharger from the scrapyard, we can take it apart in order to clean it and keep only what interests us
 ![Image](images/IMG_3710.JPG)
@@ -70,16 +70,16 @@ Note that the combustion chamber is made up of a casing through which passes a *
 2. **```Secondary zone```**
 3. **```Dilution zone```**
 
-Although we understand how it works, we need to know a minimum of the proportions to respect to size the combustion chamber in relation to our turbocharger. To do this, we redo **```[this](https://www.youtube.com/watch?v=6GywwbhqR_o&ab_channel=colinfurze)```** video of the youtuber Colinfurze.
+Although we understand how it works, we need to know a minimum of the proportions to respect to size the combustion chamber in relation to our turbocharger. To do this, we redo **```[this]```**(https://www.youtube.com/watch?v=6GywwbhqR_o&ab_channel=colinfurze) video of the youtuber Colinfurze.
 
 ![Image](images/Diametre.png)
 
-We measure the diameter $D =  2R$ of the inlet of the compressor $$```R = 1.75 cm```$$
+We measure the diameter $D =  2R$ of the inlet of the compressor $$R = 1.75 cm$$
 
-We calculate the air inlet surface of the compressor ```$$S = \pi R^2 = 9.62 cm^3$$```
+We calculate the air inlet surface of the compressor $$S = \pi R^2 = 9.62 cm^3$$
 
 The surface of the air inlet of the primary zone must be 30% of the surface of the surface of the air inlet of the compressor, therefore:
-$$S_{1} = \frac{30}{100}\ S = ```2.89 cm^2```$$
+$$S_{1} = \frac{30}{100}\ S = 2.89 cm^2$$
 
 This surface is divided into 2 rows of 13 holes around the flame tube. So each hole must have an area of:
 
