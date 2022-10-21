@@ -1,6 +1,6 @@
 # Introduction
 
-Here you will <mark>find</mark> the design and development of a DIY **```turbojet engine.```**
+Here you will find the design and development of a DIY **```turbojet engine.```**
 Feel free to participate and ask me anything about the project.
 
 **Demo video :**
@@ -70,7 +70,7 @@ Note that the combustion chamber is made up of a casing through which passes a *
 2. **```Secondary zone```**
 3. **```Dilution zone```**
 
-Although we understand how it works, we need to know a minimum of the proportions to respect to size the combustion chamber in relation to our turbocharger. To do this, we redo **```[this]```**(https://www.youtube.com/watch?v=6GywwbhqR_o&ab_channel=colinfurze) video of the youtuber Colinfurze.
+Although we understand how it works, we need to know a minimum of the proportions to respect to size the combustion chamber in relation to our turbocharger. To do this, we redo **[this](https://www.youtube.com/watch?v=6GywwbhqR_o&ab_channel=colinfurze)** video of the youtuber Colinfurze.
 
 ![Image](images/Diametre.png)
 
@@ -273,7 +273,7 @@ After some tests, I noticed that there could be **```data loss```** problems in 
 
 The new and last idea is to use **```WiFi```**. We use an **```ESP32```** in access point mode. We host a web page on it. To control the turbojet, you connect to the ESP32's wifi (in optimal conditions you can reach a range of 100m) and you load the web page on which you can interact with buttons. After a few tests I did not notice any problem on the contrary, **```it works very well```**.
 
-I thank **```Tommy desrochers```** who thanks to these **```[tutorials](https://tommydesrochers.com/premiers-tests-pour-bien-debuter-avec-lesp32-ep1/)```** allowed me to take control of the ESP32.
+I thank **```Tommy desrochers```** who thanks to these **[tutorials](https://tommydesrochers.com/premiers-tests-pour-bien-debuter-avec-lesp32-ep1/)** allowed me to take control of the ESP32.
 
 code here (arrive soon)
 
@@ -281,7 +281,7 @@ code here (arrive soon)
 
 ## Test bench <a name="bench"></a>
 
-Now that we have everything to **```control the turbojet```**, it's time to put everything together on a test bench to start our tests. On this test bench we will find ```the valve control system```, ```the spark control system```, ```the gas control system```, ```a custom PCB``` for our ESP32, ```a purchased relay PCB```, ```a 12V power supply```. We also order ```traffic lights``` that operate at 230V in order to have a **```visual indicator```** when we are away from the turbojet.
+Now that we have everything to **```control the turbojet```**, it's time to put everything together on a test bench to start our tests. On this test bench we will find ```the valve control system```, ```the spark control system```, ```the gas control system```, ```a custom PCB``` for our ESP32, ```a purchased relay PCB```, ```a 12V power supply```. We also order ```traffic lights``` that operate at 230V in order to have a ```visual indicator``` when we are away from the turbojet.
 
 **[Here](SolidWorks/) the SolidWorks files**
 
