@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle turbo</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="init()">
+    <div class="header">
+        <img src="robi.ico" alt="logo robi">
+        <p>Controle du turboréacteur</p>
+    </div>
+
+    <div class="section">
+        <div class="title">
+            <p>AIR : </p>
+            <p>OFF</p>
+        </div>
+        <div class="button">
+            <button onclick="activ(this); onAir()">Activé</button>
+            <button onclick="desactiv(this); offAir()" disabled="disabled">Désactivé</button>
+        </div>
+    </div>
+    
+    <div class="section">
+        <div class="title">
+            <p>ALLUMAGE : </p>
+            <p>OFF</p>
+        </div>
+        <div class="button">
+            <button onclick="activ(this); onAllu()">Activé</button>
+            <button onclick="desactiv(this); offAllu()" disabled="disabled">Désactivé</button>
+        </div>
+    </div>
+
+    <div class="section" id="divGaz">
+        <div class="title">
+            <p>GAZ : </p>
+            <p id="output">OFF</p>
+        </div>
+        <div class="button">
+            <button onclick="activ(this); onGaz()">Activé</button>
+            <button onclick="desactiv(this); offGaz()" disabled="disabled">Désactivé</button>
+        </div>
+        <div class="divSlider" id="slider">
+            <input type="range" min="0" max="100" value="1" class="slider" id="myRange">
+        </div>
+        
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

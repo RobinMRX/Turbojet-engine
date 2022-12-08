@@ -1,0 +1,130 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: rgb(156, 129, 129);
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+
+    
+}
+
+.header{
+    background-color: white;
+
+    padding: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.header img{
+    width: 62px;
+}
+
+.section{
+    background-color: #f44336;
+
+    margin: 80px 10px;
+    padding: 10px;
+
+    border-radius: 5px;
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.button{
+    margin: 10px;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.button button{
+    font-size: 32px;
+    padding: 8px 16px;
+
+    border: none;
+    border-radius: 8px;
+
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button button:hover:enabled{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.button button:active:enabled{
+    box-shadow: none;
+}
+
+.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+
+    background-color: gray;
+    color: black;
+}
+
+.divSlider{
+    display: flex;
+    justify-content: center;
+
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.slider{
+    appearance: none;
+
+    width: 100%;
+    height: 54px;
+
+    background: rgb(76,175,80);
+    background: linear-gradient(90deg, rgba(76,175,80,1) 0%, rgba(244,67,54,1) 100%);
+
+    outline: none;
+
+    opacity: 0.9;
+    transition-duration: 0.4s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    /*-webkit-appearance: none;
+    appearance: none;*/
+    width: 64px;
+    height: 64px;
+    /*background: url('flame-svgrepo-com.svg');*/
+    cursor: pointer;
+}
+
+@media screen and (min-width: 480px) {
+    .section {
+      font-size: 40px;
+
+      margin: 40px auto;
+
+      width: 400px;
+    }
+  }
