@@ -294,3 +294,19 @@ Now that we have everything to **```control the turbojet```**, it's time to put 
 
 ![Image](images/IMG_9866.JPEG)
 ![Image](images/IMG_9867.JPEG)
+
+We add the **spark system**, **End of stroke** detection for gaz opening.
+
+![Image](images/IMG_2318.JPEG)
+![Image](images/IMG_2319.JPEG)
+![Image](images/IMG_2320.JPEG)
+![Image](images/IMG_2321.JPEG)
+
+We also take the opportunity to review the **sprinkler system**. (See photo below) Now the nozzle is a 12mm tube plugged then pierced on one side. The idea is to be able to manufacture several tubes with **different nozzle sizes**. To start, we use a nozzle with 4 holes of 2mm each. This new design allows us to **position** the gas inlet at the air inlet for **better mixing**. In addition, with the flexible tube and the fittings, we can **easily** change the nozzle.
+
+![Image](images/IMG_2308.JPEG)
+![Image](images/IMG_2309.JPEG)
+![Image](images/IMG_2310.JPEG)
+![Image](images/IMG_2313.JPEG)
+![Image](images/IMG_2317.JPEG)
+![Image](images/IMG_2316.JPEG)
